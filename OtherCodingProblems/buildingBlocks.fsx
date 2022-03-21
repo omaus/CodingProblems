@@ -1,4 +1,3 @@
-// Taken from: https://www.youtube.com/watch?v=rw4s4M3hFfs#t=2m48s (beginning at about 2:45 as in the timestamp)
 // Task: 
 // Given a row of building blocks (BB), choose the one that has the closest distance to any of the required buildings that a block can inhibit.
 // E.g. the following:
@@ -8,6 +7,7 @@
 // The optimal BB would be BB2 since it has direkt access to Gym and Store and only has to go one block above to get to School.
 // The number of required buildings and BBs can be ranging from `2` to `n`.
 // Every required building will be listed in the respective BB with being `true` or `false`.
+// taken from: https://www.youtube.com/watch?v=rw4s4M3hFfs#t=2m48s (beginning at about 2:45 as in the timestamp)
 
 // The type representation of the problem.
 type BuildingBlock = {

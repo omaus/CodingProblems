@@ -1,5 +1,4 @@
-// Task: https://www.youtube.com/watch?v=4tYoVx0QoN0#t=1m33s (around minute 1:30, as in timestamp)
-
+// Task:
 // A matrix of pixels with zeroes (white pixels) and ones (black pixels). 
 // The task is to remove all black pixels that are not connected to a black pixel at the border.
 // The borders are the outer rows and columns.
@@ -14,6 +13,7 @@
 //  [0; 1; 0; 1];
 //  [0; 0; 1; 0]]
 // The pixels in the second column build a connection from the top (real border pixel) until the third row.
+// taken from: https://www.youtube.com/watch?v=4tYoVx0QoN0#t=1m33s (around minute 1:30, as in timestamp)
 
 #r "nuget: FSharpAux"
 

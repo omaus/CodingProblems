@@ -1,4 +1,4 @@
-(Difficulty: Easy)
+_(Difficulty: Easy)_
 
 Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
 
